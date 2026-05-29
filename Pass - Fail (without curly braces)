@@ -1,0 +1,19 @@
+/* Copyright Charlie Mitchell 2017, 2026 */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int mark = 40;
+
+    if (mark < 50) 
+        cout << "You failed." << endl;
+    
+    else 
+        cout << "You passed." << endl;
+    
+    return 0;
+}
+
+// Simple yet effective.
