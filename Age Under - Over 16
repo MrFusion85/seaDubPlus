@@ -1,0 +1,19 @@
+// Copyright Charlie Mitchell 2017, 2026
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    cout << "How old are you?" << endl;
+    cin >> age;
+    if ( !(age >= 16) ) {
+        cout << "Your age is less than 16" << endl;
+    }
+    else {
+        cout << "Your age is 16 or more" << endl;
+    }
+
+    return 0;
+}
