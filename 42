@@ -1,0 +1,9 @@
+/* Copyright Charlie Mitchell 2017, 2026 */
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+  cout << rand()+1;
+}
