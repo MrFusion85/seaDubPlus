@@ -1,0 +1,25 @@
+// Copyright Charlie Mitchell 2018, 2026
+// Convert Length (Metric to Imperial)
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a;
+    int b;
+    int c;
+    int d;
+    int e;
+    cout << "Please enter the total number of centimeters: \n";
+    cin >> a;
+    
+    b = a / 2.54;
+    c = b % 12;
+    d = b / 12;
+    e = b - c;
+
+    cout << a << " centimeters " << "is equal to " << d << " feet and " << c << " inches, or " << e << " inches total." ;
+
+    return 0;
+}
