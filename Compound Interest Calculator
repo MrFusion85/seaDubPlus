@@ -1,0 +1,31 @@
+// Created by Charlie Mitchell
+// Copyright 2018, 2026
+
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double a,n,p,r,t,x;
+    
+    cout << "Please enter the principle ammount: \n";
+    cin >> p;
+    
+    cout << "Please enter the ammount of time (in years): \n";
+    cin >> t;
+    
+    cout << "Please enter the number of times compounded per year: \n";
+    cin >> n;
+    
+    cout << "Please enter the interest rate (as a decimal): \n";
+    cin >> r;
+    
+    x = pow ((1 + (r / n)) , (n * t));
+    a = p * x;
+
+    cout << "Your principle contribution of $" << p << ", will grow to $" << a << " after " << t << " years.";
+
+    return 0;
+}
