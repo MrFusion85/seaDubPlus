@@ -1,0 +1,24 @@
+// Created by Charlie Mitchell
+// Copyright 2018, 2026
+
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    double r,c,l,x;
+    
+    cout << "Please enter your total ammount of cash and cash equivalents: \n";
+    cin >> c;
+    
+    cout << "Please enter your total ammount of current liabilities: \n";
+    cin >> l;
+    
+    x = c / l;
+    r = x * 100;
+
+    cout << "Your current cash ratio is: " << r << "%";
+
+    return 0;
+}
