@@ -1,0 +1,23 @@
+// Created by Charlie Mitchell
+// Copyright 2018, 2026
+
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    double m,i,s;
+    
+    cout << "Please enter your net income: \n";
+    cin >> i;
+    
+    cout << "Please enter your total sales: \n";
+    cin >> s;
+    
+    m = i / s;
+
+    cout << "Your profit margin is $" << m << " per unit.";
+
+    return 0;
+}
