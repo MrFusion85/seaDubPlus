@@ -1,0 +1,26 @@
+// Created by Charlie Mitchell
+// Copyright 2018, 2026
+
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    double c,b,p,e;
+    
+    cout << "Please enter your beginning inventory: \n";
+    cin >> b;
+    
+    cout << "Please enter your amount of purchases: \n";
+    cin >> p;
+    
+    cout << "Please enter your ending inventory: \n";
+    cin >> e;
+    
+    c =  b + p - e;
+
+    cout << "Your cost of goods sold is $" << c;
+
+    return 0;
+}
