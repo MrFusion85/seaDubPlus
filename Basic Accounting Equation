@@ -1,0 +1,23 @@
+// Created by Charlie Mitchell
+// Copyright 2018, 2026
+
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    double a,l,e;
+    
+    cout << "Please enter your amount of liabilities: \n";
+    cin >> l;
+    
+    cout << "Please enter your amount of equity: \n";
+    cin >> e;
+    
+    a = l + e;
+
+    cout << "Your total assets equal $" << a << ".";
+
+    return 0;
+}
